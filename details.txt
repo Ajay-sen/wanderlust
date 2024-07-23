@@ -1,0 +1,35 @@
+<-------------phase 1------>
+two things will be done here: 
+1> database setup
+2> REST apis for CRUD
+
+->do the basic set up
+
+//DATABASE
+->database: wanderlist
+->model1:listing
+    title-string,
+    description-string,
+     image-url,
+     price-number,
+     location-string,
+     country-string
+
+->to initialize the database we ll use INIT folder    
+
+//ROUTES:(CRUD)
+1. index route=>>will show   all listings
+
+2. show route=>> to show detail of each route[R-read]
+
+3. New ans Create route=>> [C-create]
+    to create and add we use GET-POST api
+
+4.Edit and Update route=>>[U-update]
+    to update we use GET-PUT api
+
+5.Delete route=>> [D-delete]
+
+<<<<<-------------------------------------------------------->>>>>
+EJS Mate use:
+--> this package is used for  the things which will remain common in our different pages like NAVBAR, FOOTER etc.
