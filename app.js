@@ -78,8 +78,12 @@ const sessionOptions={
 
 //root route api
 // app.get("/",(req,res)=>{
-//     res.send("hi i m root");
+//     res.render("listings");
 // })
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
 
 
 
