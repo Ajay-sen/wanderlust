@@ -81,7 +81,7 @@ const sessionOptions={
 //     res.render("listings");
 // })
 app.get("/", (req, res) => {
-    res.redirect("/");
+    res.redirect("/listings");
 });
 
 
@@ -116,7 +116,7 @@ app.use((req,res,next)=>{
 //    res.send(registeredUser);
 // })
 
-app.use("/",listingRouter);
+
 app.use("/listings",listingRouter);
 app.use("/listings/:id/reviews",reviewRouter);
 app.use("/",userRouter);
